@@ -1,2 +1,2 @@
-# homebrew-tap
+# CodeFetch
 Homebrew packages for CodeFetch

@@ -1,4 +1,4 @@
-class Codefetch < Formula
+class CodefetchCli < Formula
   desc "CodeFetch CLI"
   homepage "https://codefetch.io"
   version "1.1.0"

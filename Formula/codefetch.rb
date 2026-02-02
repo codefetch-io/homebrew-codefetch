@@ -7,20 +7,20 @@ class Codefetch < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/codefetch-io/homebrew-tap/raw/main/1.1.0/codefetch-1.1.0-darwin-amd64.tar.gz"
-      sha256 "c5ad0a46c6a37b0749bfff2f1c471e679b7356ec52e611c7066e639ea6e03ccb"
+      sha256 "7540fbc07ce94a492ac9ce97820557bafb576194b6eb85287f708dc1714839aa"
     else
       url "https://github.com/codefetch-io/homebrew-tap/raw/main/1.1.0/codefetch-1.1.0-darwin-arm64.tar.gz"
-      sha256 "66102840746667c901f4eb232654901d36ea84bd29c564225663eda9d4693cf9"
+      sha256 "2e208b65612dedd1648db350f3aba566074f463c24255817f71d4882c458cb7a"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/codefetch-io/homebrew-tap/raw/main/1.1.0/codefetch-1.1.0-linux-amd64.tar.gz"
-      sha256 "644a6c39dd4cc8b9d4741ebd3957cab423ad9840bc6c2295903d4bd3489a8448"
+      sha256 "53a1919a658baa55e28757c51ad9c298d909d58086712f3a8164e1932d2c3783"
     else
       url "https://github.com/codefetch-io/homebrew-tap/raw/main/1.1.0/codefetch-1.1.0-linux-arm64.tar.gz"
-      sha256 "7505f63e4701a5d78d0256b954b75a981de68a9dd6dda258411faa383440de0d"
+      sha256 "bde549d4afbdd2c20d1e19ffe5c1db24861c75f570bfabb3990eb22d17b7186e"
     end
   end
 

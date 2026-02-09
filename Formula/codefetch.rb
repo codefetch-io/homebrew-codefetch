@@ -1,26 +1,26 @@
 class Codefetch < Formula
   desc "CodeFetch CLI"
   homepage "https://github.com/codefetch-io"
-  version "1.0.4"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.4/codefetch-1.0.4-darwin-amd64.tar.gz"
-      sha256 "5b9e8b9b20a13f6c296425a719722311997d9ebc2b4fdeb81ea7505a9256bbe2"
+      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.5/codefetch-1.0.5-darwin-amd64.tar.gz"
+      sha256 "ad09e34dec4eac9194cc33ec4d938a425e9ff2ef16660cd97fa83dabd2458ec8"
     else
-      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.4/codefetch-1.0.4-darwin-arm64.tar.gz"
-      sha256 "b063b00c33de5ac16cc9af702ac6f2d8c1a014e2888e1599cb459ff4383ecfd7"
+      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.5/codefetch-1.0.5-darwin-arm64.tar.gz"
+      sha256 "5747063c4c19305100b99fff4662ed41a94ab8e71db1749390c0d5c45fc1d1ab"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.4/codefetch-1.0.4-linux-amd64.tar.gz"
-      sha256 "c4e37a73a9eea44fe9465a27c1a347f10eea8735e67595c8b38bb1dac3176db8"
+      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.5/codefetch-1.0.5-linux-amd64.tar.gz"
+      sha256 "20241f9d3f83341c9f4ae17a8f388c1316f606286817d589ad86fdd122fa8973"
     else
-      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.4/codefetch-1.0.4-linux-arm64.tar.gz"
-      sha256 "60a8cf3c19956f2ca637f5514430972053e15d59edd53dffb24f827bf4674e85"
+      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.5/codefetch-1.0.5-linux-arm64.tar.gz"
+      sha256 "25347761a22d79cfec99fe87190ef5226941bbc61f91e146fd4b429b324b672d"
     end
   end
 

@@ -1,26 +1,26 @@
 class Codefetch < Formula
-  desc "CodeFetch CLI"
-  homepage "https://github.com/codefetch-io"
-  version "1.0.6"
+  desc "A single-source of truth for scripts, snippets and config files that can be shared and run anywhere."
+  homepage "https://codefetch.io"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.6/codefetch-1.0.6-darwin-amd64.tar.gz"
-      sha256 "adc80261862335d1508ad859acfdfda233e93fed5d7baab7fe17cf490b1e1776"
+      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.0/codefetch-1.0.0-darwin-amd64.tar.gz"
+      sha256 "1fcce913619c3d8f7c631cf93594708b68c595ad984bae98a64f0a60aad8d188"
     else
-      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.6/codefetch-1.0.6-darwin-arm64.tar.gz"
-      sha256 "81bb67291a741884b8e21d7b2f86bcd3100594ffaba6be443f94fe2d8adcdd11"
+      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.0/codefetch-1.0.0-darwin-arm64.tar.gz"
+      sha256 "121bb4a24830c2c45aa0505a4be58e476510ad25d8b72ce455cfe7b04fb8685f"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.6/codefetch-1.0.6-linux-amd64.tar.gz"
-      sha256 "52896b8fe60a8171080b57e1903bb626939b99dfa0700175cb5917bf89b59dbc"
+      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.0/codefetch-1.0.0-linux-amd64.tar.gz"
+      sha256 "1ceaea76cd0fc646ea87fe0ce2f8eeb3a97f1991533b993bded2311080156fc1"
     else
-      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.6/codefetch-1.0.6-linux-arm64.tar.gz"
-      sha256 "b0a5332a1b641768fd67094d441f4f23358dd4bc642339f0302e3ac45c2f2633"
+      url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.0/codefetch-1.0.0-linux-arm64.tar.gz"
+      sha256 "74b0eeca96b7bec28e94529839bcc62b6aa79f30de7cd543d3c003b04596864f"
     end
   end
 

@@ -7,20 +7,20 @@ class Codefetch < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.1.0/codefetch-1.1.0-darwin-amd64.tar.gz"
-      sha256 "cb7f7265970039f489088ded4dc9af95d572b885f0e416b444aa09fc72f925d0"
+      sha256 "50226465eec32a61f853d1bf8944c63c76723ab132e3d81722939be23a25b8c7"
     else
       url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.1.0/codefetch-1.1.0-darwin-arm64.tar.gz"
-      sha256 "f2513639a4e5a13952fc15a07e3b286bdc063a46343fde742b00c80b04d206f0"
+      sha256 "405f3ac11e02120b928c6a14467a87f579af1f63d3ff8bdbda6886131413cb84"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.1.0/codefetch-1.1.0-linux-amd64.tar.gz"
-      sha256 "4bd00617cd97d9640f4d21192a0a809b27185b0ac7a9a47cdc11b4497a7079ba"
+      sha256 "6143ef69c414d97c135e41df06c1cd6351e265523f267d47e35938a1592ea71a"
     else
       url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.1.0/codefetch-1.1.0-linux-arm64.tar.gz"
-      sha256 "8936da562f7cebf54116bbbd423dbe36629a6c70bc184dcfea478756ce03fe0f"
+      sha256 "e1fa8b7ff421f6058b912862eb492e3c51427778983ac34c6b018acd29850e80"
     end
   end
 

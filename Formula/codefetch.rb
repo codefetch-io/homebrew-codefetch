@@ -1,5 +1,5 @@
 class Codefetch < Formula
-  desc "A single-source of truth for scripts, snippets and config files that can be shared and run anywhere."
+  desc "A single-source of truth for scripts and config files that can be shared and run anywhere"
   homepage "https://codefetch.io"
   version "1.0.0"
   license "MIT"
@@ -7,20 +7,20 @@ class Codefetch < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.0/codefetch-1.0.0-darwin-amd64.tar.gz"
-      sha256 "6f16a21eccf153ac246a7b8e1cdddc2772b4047fcc8b4b91bc524d5609fbdc53"
+      sha256 "954a12df49d56b5df3113e75e6620ce15b4f0a3443448bd0b15aaa3efe47e6f8"
     else
       url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.0/codefetch-1.0.0-darwin-arm64.tar.gz"
-      sha256 "7d3be9600bb33421028ec22d997943a626e71035ddc56a1e66b9c5a3d363cb9f"
+      sha256 "fc1570925e75e5deae6c5272bf3fc2ccaae7ec40cd5d6a77eac9488b12dc6216"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.0/codefetch-1.0.0-linux-amd64.tar.gz"
-      sha256 "87a43fc759ed31726dbff23de424edaf61202022a295412cc790dacf842d615e"
+      sha256 "1403c25b15425b8fad39aaa7c5a8f3bc2dd6135c804da517a022db0277912122"
     else
       url "https://github.com/codefetch-io/codefetch-releases/releases/download/v1.0.0/codefetch-1.0.0-linux-arm64.tar.gz"
-      sha256 "35846860b9b6fc37ea6bf4894613b67cc0db55c88d02f9a29f499cecded4f292"
+      sha256 "41c1edb31f63f0a7fb4d515bfd6927df3b1a0008bcee4c2c5b7cfe482ee03971"
     end
   end
 
@@ -29,6 +29,6 @@ class Codefetch < Formula
   end
 
   test do
-    system "#{bin}/codefetch", "--version"
+    system "#{bin}/codefetch", "version"
   end
 end
